@@ -160,4 +160,12 @@
         margin: 0 auto;
         text-align: justify;
     }
+    .tys-img{
+        width: 683px;
+        height: 384px;
+        text-align: center;
+        /*
+        margin: 0 auto;
+        display: block;*/
+    }
 }

@@ -1,10 +1,10 @@
 :root{
-    --theme-color:white;
+    --theme-color:rgb(193, 229, 245);
     --primary-color: #124f88;
     --secundary-color: #F7C331;
     --text-color-inverse: white;
     --text-color: black;
-    --navbar-shallow-color: #e5e5e5;
+    --navbar-shallow-color: #124f88;
     --menu-mobile-background-color: #3A4460;
 }
 body{
