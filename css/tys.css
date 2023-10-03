@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.tys-info {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.tys-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tys-subtitulos {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.tys-parrafo {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.0;
+    max-width: 450px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.tys-parrafo1 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.0;
+    max-width: 450px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+
+.formato-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    border: none;
+    font-size: 15px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.titulos-rojos {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: red;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.tys-subtitulos-negritas {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+/*ES PARA DISPLAY DE PC*/
+
+@media(min-width: 950px) {
+    .tys-info {
+        margin-bottom: 30px;
+    }
+
+    .tys-titulo {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+        padding: 50px;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    .tys-subtitulos {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+        text-align: justify;
+        max-width: 950px;
+        margin: 0 auto;
+
+    }
+
+    .tys-subtitulos-negritas {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        font-family: 'Noto Sans', sans-serif;
+        text-align: justify;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    .titulos-rojos {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        color: red;
+        font-family: 'Noto Sans', sans-serif;
+        text-align: justify;
+        max-width: 950px;
+        margin: 0 auto;
+
+
+    }
+
+    .tys-parrafo {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        max-width: 950px;
+        margin: 0 auto;
+        margin: 20px auto;
+        text-align: justify;
+
+    }
+
+    .tys-parrafo1 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 2.0;
+        max-width: 900px;
+        text-align: justify;
+        margin: 0 auto;
+        text-align: justify;
+    }
+}

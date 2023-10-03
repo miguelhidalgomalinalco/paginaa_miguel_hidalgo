@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.clubes-info{
+    margin-bottom: 30px;
+    
+}
+.clubes-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.clubes-subtitulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.clubes-parrafos{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.0;
+    max-width: 450px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*ES PARA DISPLAY DE PC*/
+@media(min-width: 950px){
+    .clubes-info{
+        margin-bottom: 30px;}
+
+        .clubes-titulo{
+            font-size: 50px;
+            font-weight: bold;
+            margin: 0;
+            color: var(--primary-color);
+            font-family: 'Noto Sans', sans-serif;
+            padding: 50px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .clubes-subtitulo{
+            font-size: 25px;
+            font-weight: bold;
+            margin: 0;
+            color: var(--primary-color);
+            font-family: 'Noto Sans', sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+        
+        }
+        .clubes-parrafos{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.5;
+            max-width: 950px;
+            margin: 0 auto;
+            margin: 20px auto;
+            text-align: justify;
+        
+    }
+
+
+}

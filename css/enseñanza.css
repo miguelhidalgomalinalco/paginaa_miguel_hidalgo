@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.enseñanza-info{
+    margin-bottom: 0px;
+   
+}
+.enseñanza-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.enseñanza-subtitulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+
+}
+.enseñanza-parrafos{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.0;
+    max-width: 450px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*ES PARA DISPLAY DE PC*/
+@media(min-width: 950px) {
+    .enseñanza-info{
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+    .enseñanza-titulo{
+        font-size: 50px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+        padding: 40px;
+        text-align: center;
+    }
+    .enseñanza-subtitulo{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        color: var(--primary-color);
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+    
+    }
+    .enseñanza-parrafos{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        max-width: 950px;
+        margin: 0 auto;
+        margin: 20px auto;
+        text-align: justify;
+
+    }
+}
+
+
+
+
+}
