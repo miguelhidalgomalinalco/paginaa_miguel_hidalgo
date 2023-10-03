@@ -40,6 +40,12 @@
     text-align: center;
    
 }
+.infra-aerea {
+    width: 337px;
+    height: 189px;
+    margin: 0 auto;
+    display: block;
+}
 
 /*ES PARA DISPLAY DE PC*/
 @media(min-width: 950px) {
