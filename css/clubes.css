@@ -67,6 +67,12 @@
             text-align: justify;
         
     }
+    .img-danza{
+        width: 260px;
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+    }
 
 
 }
