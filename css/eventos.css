@@ -11,6 +11,7 @@
     font-family: 'Noto Sans', sans-serif;
     padding: 0px;
     text-align: center;
+    text-transform: uppercase;
 }
 .eventos-subtitulos{
     font-size: 25px;
@@ -28,7 +29,8 @@
     max-width: 450px;
     margin: 0 auto;
     margin: 20px auto;
-    text-align: justify;
+    text-align: center;
+    text-transform: uppercase;
 
 }
 .eventos-img{
@@ -40,6 +42,18 @@
 .simulacro2-img{
     width: 341px;
     height: 256px;
+    margin: 0 auto;
+    display: block;
+}
+.ceremonias-img{
+    width: 304px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.diadelniño-img{
+    width: 200px;
+    height: 150px;
     margin: 0 auto;
     display: block;
 }
@@ -55,6 +69,7 @@
         color: var(--primary-color);
         font-family: 'Noto Sans', sans-serif;
         padding: 50px;
+        text-transform: uppercase;
     }
     .eventos-parrafo{
     font-size: 18px;
@@ -63,7 +78,8 @@
     max-width: 950px;
     margin: 0 auto;
     margin: 20px auto;
-    text-align: justify;
+    text-align: center;
+    text-transform: uppercase;
     }
     .eventos-subtitulos{
         font-size: 25px;
@@ -86,6 +102,18 @@ margin: auto 200px;
 .simulacro2-img{
     width: 1024px;
     height: 768px;
+    margin: 0 auto;
+    display: block;
+}
+.ceremonias-img{
+    width: 609px;
+    height: 800px;
+    margin: 0 auto;
+    display: block;
+}
+.diadelniño-img{
+    width: 800px;
+    height: 600px;
     margin: 0 auto;
     display: block;
 }
